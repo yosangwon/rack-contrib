@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.7.3'
 
+  s.add_runtime_dependency 'json', '> 3.0'
   s.add_runtime_dependency 'rack', '< 4'
 
   s.homepage = "https://github.com/rack/rack-contrib/"
